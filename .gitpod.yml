@@ -1,0 +1,7 @@
+tasks:
+  - init: yarn # runs during prebuild
+    command: yarn start
+
+ports:
+  - port: 3000
+    onOpen: open-preview
