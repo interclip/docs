@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Interclip docs',
   tagline: 'All about Interclip',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.interclip.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -14,17 +14,17 @@ module.exports = {
   projectName: 'Interclip', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Interclip docs',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
           type: 'doc',
           docId: 'Intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Home',
         },
         {
           href: 'https://blog.trnck.dev',
