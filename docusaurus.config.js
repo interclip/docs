@@ -83,7 +83,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-            'https://github.com/aperta-principium/Interclip-docs/edit/main/website/',
+            'https://github.com/aperta-principium/Interclip-docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
