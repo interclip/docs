@@ -1,5 +1,3 @@
-# Interclip API
-
 There is a very simple API for anybody to use. Remember, clips only last for a month! (as of [v3.2.4](https://github.com/aperta-principium/Interclip/releases/tag/v3.2.4))
 ## Create clips
 ### Example queries
