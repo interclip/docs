@@ -21,12 +21,6 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'Intro',
-          position: 'left',
-          label: 'Home',
-        },
-        {
           href: 'https://blog.trnck.dev',
           label: 'Blog',
           position: 'right',
@@ -40,8 +34,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Home',
-              to: '/docs/Intro',
+              label: 'Welcome',
+              to: '/docs/Welcome',
             },
           ],
         },
