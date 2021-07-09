@@ -72,7 +72,8 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Interclip.`,
+      copyright: `<span class="copy-left">©</span>
+      ${new Date().getFullYear()} Interclip.`,
     },
     prism: {
       theme: lightCodeTheme,

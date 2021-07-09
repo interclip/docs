@@ -1,12 +1,12 @@
 :root {
   --ifm-code-font-size: 95%;
-  --ifm-color-primary: #157EFB;
+  --ifm-color-primary: #157efb;
   --ifm-color-primary-dark: #126cda;
   --ifm-color-primary-darker: #1370e2;
   --ifm-color-primary-darkest: #105cb9;
   --ifm-color-primary-light: #157dfb;
-  --ifm-color-primary-lighter: #157EFB;
-  --ifm-color-primary-lightest: #157EFB;
+  --ifm-color-primary-lighter: #157efb;
+  --ifm-color-primary-lightest: #157efb;
 }
 
 :root[data-theme="dark"] {
@@ -26,6 +26,19 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* https://medium.com/@mmeida/how-to-insert-the-copyleft-symbol-f093113cc2cf */
+.copy-left {
+  display: inline-block;
+  text-align: right;
+  margin: 0px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: “FlipH”;
 }
