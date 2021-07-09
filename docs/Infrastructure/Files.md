@@ -13,7 +13,7 @@ The file upload script for all uploads is here: https://github.com/aperta-princi
 
 What it does is it takes the `uploaded_file` from the `$_FILES` superglobal and:
 1. Checks if the file is above the file size limit
-2. Creates a unique identifier for the file, getting the first 10 characters of a SHA1, which is generated from the `uniqid()` with the seed of the current timestamp joined with a random shuffle of the alphanumeric alphabet. This method does not check for duplicates because it would impact performance. There are about 3 quadrillion (3.656158440062976 × 10^15) of possible combinations of file ids.
+2. Creates a unique identifier for the file, getting the first 10 characters of a SHA1, which is generated from the `uniqid()` with the seed of the current timestamp joined with a random shuffle of the alphanumeric alphabet. This method does not check for duplicates because it would impact performance. There is about 3 quadrillion (3.656158440062976 × 10^15) possible combinations of file ids.
 3. The extension of the file is scanned for illegal characters (anything non-ASCII basically)
 4. If it doesn't contain any, it moves the file from its `tmp_name` to `upload/uploads/` under the new name
 5. It executes `upload.sh` with an argument as the path of the newly uploaded file in the background
