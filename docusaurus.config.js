@@ -19,7 +19,7 @@ module.exports = {
     announcementBar: {
       id: 'beta_warning',
       content:
-        'Welcome to our brand new docs! They are still in active development, so please, keep that in mind, and if you find anything wrong, <a target="_blank" rel="noreferrer noopener" href="https://github.com/aperta-principium/Interclip-docs/issues/new">submit an issue!</a>',
+        'Welcome to our brand new docs! They are still in active development, so please, keep that in mind, and if you find anything wrong, <a target="_blank" rel="noreferrer noopener" href="https://github.com/interclip/docs/issues/new">submit an issue!</a>',
       backgroundColor: '#fafbfc',
       textColor: '#091E42',
     },
@@ -87,7 +87,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-            'https://github.com/aperta-principium/Interclip-docs/edit/main/',
+            'https://github.com/interclip/docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
