@@ -10,7 +10,7 @@
 }
 
 :root[data-theme="dark"] {
-  --ifm-background-color: #000000;
+  --ifm-background-color: #151515;
   --ifm-toggle-icon-color: #ffffff;
   --ifm-table-border-color: #282c34;
   --ifm-table-head-background: #242526;
