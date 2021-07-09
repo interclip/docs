@@ -13,6 +13,16 @@ module.exports = {
   organizationName: 'aperta-principium', // Usually your GitHub org/user name.
   projectName: 'Interclip', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
+    announcementBar: {
+      id: 'beta_warning',
+      content:
+        'Welcome to our brand new docs! They are still in active development, so please, keep that in mind, and if you find anything wrong, <a target="_blank" rel="noreferrer noopener" href="https://github.com/aperta-principium/Interclip-docs/issues/new">submit an issue!</a>',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+    },
     navbar: {
       title: 'Interclip docs',
       logo: {
