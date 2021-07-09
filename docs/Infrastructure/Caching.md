@@ -21,6 +21,6 @@ In Interclip, we use Redis for the two following tasks:
 When a new clip is created, it is added as a key in Redis with a <abbr title="Time To Live">TTL</abbr> of 7 days, so if it accessed again within that time period, it is served from the cache, instead of the database.
 
 #### Rate limiting
-Redis keeps tab on the number of hits per IP (hashed IP, to be specific) and only stores the data for 30 seconds after the last request.
+Redis keeps a tab on the number of hits per IP (hashed IP, to be specific) and only stores the data for 30 seconds after the last request.
 
 ## ToDo: Service worker
