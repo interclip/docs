@@ -1,3 +1,5 @@
+# Clients
+
 We have many client apps for Interclip, so you can use Interclip on any platform!
 
 ## Native apps
