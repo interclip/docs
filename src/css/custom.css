@@ -30,6 +30,10 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+li.menu__list-item > a {
+  text-transform: capitalize;
+}
+
 /* https://medium.com/@mmeida/how-to-insert-the-copyleft-symbol-f093113cc2cf */
 .copy-left {
   display: inline-block;
