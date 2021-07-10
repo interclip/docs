@@ -1,3 +1,5 @@
+# Files
+
 You can actually host files on Interclip, here is the documentation for all of that.
 
 ## Frontend 

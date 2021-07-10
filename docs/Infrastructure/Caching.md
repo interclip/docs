@@ -1,3 +1,5 @@
+# Caching
+
 Interclip uses Redis to cache key components of the app so they run as smoothly as possible.
 
 ## Redis
