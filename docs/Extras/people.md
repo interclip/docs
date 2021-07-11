@@ -16,3 +16,7 @@ Keno is focused on the marketing and UX of Interclip. He is the man behind the 2
 
 ## [@svobodavl](https://github.com/svobodavl)
 Vláďa has been a tremendous source of constant support and feedback since he got to know the project. He is the person who created Interclippies, the extremely hilarious messages you see when uploading a file to Interclip.
+
+<img src="https://user-images.githubusercontent.com/29888641/125195720-2d998500-e257-11eb-8b62-692017149ae1.png" height="350" />
+
+By Vladja
