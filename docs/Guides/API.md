@@ -6,8 +6,12 @@ There is a very simple API for anybody to use. Remember, clips only last for a m
 
 ### Example queries
 
-**POST**
-`https://interclip.app/includes/api`
+⚠️ Warning! The endpoint `https://interclip.app/includes/api` is deprecated and will be removed in the following months.
+
+#### POST
+
+`https://interclip.app/api/set`
+
 body:
 
 ```json
@@ -16,8 +20,9 @@ body:
 }
 ```
 
-**GET**
-`https://interclip.app/includes/api?url=https://flutter.dev/`
+#### GET
+
+`https://interclip.app/api/set?url=https://flutter.dev/`
 
 ### Example responce
 
@@ -32,8 +37,11 @@ body:
 
 ### Example queries
 
-**POST**
-`https://interclip.app/includes/get-api`
+⚠️ Warning! The endpoint `https://interclip.app/includes/get-api` is deprecated and will be removed in the following months.
+
+#### POST
+
+`https://interclip.app/api/get`
 body:
 
 ```json
@@ -43,7 +51,7 @@ body:
 ```
 
 **GET**
-`https://interclip.app/includes/get-api?code=tasks`
+`https://interclip.app/api/get?code=tasks`
 
 ### Example responce
 
