@@ -19,3 +19,4 @@
 ### JS
 - **Dark Mode Toggle** licensed under [Apache-2.0 License](https://github.com/GoogleChromeLabs/dark-mode-toggle/blob/master/LICENSE), [GitHub](https://github.com/GoogleChromeLabs/dark-mode-toggle)
 - **SweetAlert2** licensed under the [MIT License](https://github.com/sweetalert2/sweetalert2/blob/master/LICENSE), [GitHub](https://github.com/sweetalert2/sweetalert2)
+- **Link drag and drop** licensed under the [MIT License](https://github.com/thinkverse/draggable/blob/main/LICENSE), [GitHub](https://github.com/thinkverse/draggable/)
