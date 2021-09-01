@@ -5,7 +5,7 @@
 - [Search bar animation](https://codepen.io/MilanMilosev/pen/JdgRpB) by Milan Milošev [[MIT License](http://opensource.org/licenses/MIT)] as per [Codepen's licensing](https://blog.codepen.io/documentation/licensing/)
 
 ## Logo
-© 2019, Filip Troníček. All rights reserved.
+© 2021, Josef Kahoun. All rights reserved.
 
 ## Libraries
 ### PHP
