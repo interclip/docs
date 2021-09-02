@@ -2,6 +2,9 @@
 
 You can actually host files on Interclip, here is the documentation for all of that.
 
+## Storing files
+The files are kept in an S3 bucket hosted somewhere in the cloud. There is a retention policy for all files, so they are deleted after a certain time. This time is set to 69 days to prevent usage of Interclip as a CDN or backup service.
+
 ## Frontend 
 There is a simple interface at `/file` which is powered by a JS script, which upon selection of a file (drag n' drop, input selection, or pasting of an image) does these things:
 1. Checks if the file isn't over the `fileSizeLimitInMegabytes` limit
