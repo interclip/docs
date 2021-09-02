@@ -6,7 +6,7 @@ There is a very simple API for anybody to use. Remember, clips only last for a m
 
 ### Example queries
 
-⚠️ Warning! The endpoint `https://interclip.app/includes/api` is deprecated and will be removed in the following months.
+⚠️ Warning! The endpoint `https://interclip.app/includes/api` has been deprecated and will not work anymore.
 
 #### POST
 
@@ -37,7 +37,7 @@ body:
 
 ### Example queries
 
-⚠️ Warning! The endpoint `https://interclip.app/includes/get-api` is deprecated and will be removed in the following months.
+⚠️ Warning! The endpoint `https://interclip.app/includes/get-api` has been deprecated and will not work anymore.
 
 #### POST
 
