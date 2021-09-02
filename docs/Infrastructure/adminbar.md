@@ -8,7 +8,7 @@ When logged in (this can be achieved by visiting `/login`), you can toggle the a
 You can toggle the admin bar using <kbd>Shift+B</kbd>
 
 ## How it looks like
-![image](https://user-images.githubusercontent.com/29888641/116861657-c1215a80-ac03-11eb-8f69-55b2120f45c8.png)
+![image](/img/docs/adminbar.png)
 
 ### Legend
 - **Client**: The total time it took the client to render the DOM and fetch all the necessary resources
