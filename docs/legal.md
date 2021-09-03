@@ -2,6 +2,7 @@
 
 ## Designs
 - [Pure CSS Select](https://codepen.io/raubaca/pen/VejpQP) by Raúl Barrera [[MIT License](http://opensource.org/licenses/MIT)] as per [Codepen's licensing](https://blog.codepen.io/documentation/licensing/)
+- [Switch - GUI challenges](https://github.com/argyleink/gui-challenges/tree/main/switch) licensed under the [Apache License](https://raw.githubusercontent.com/argyleink/gui-challenges/main/LICENSE)
 
 ## Logo
 © 2021, Josef Kahoun. All rights reserved.
