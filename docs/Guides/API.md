@@ -24,7 +24,7 @@ body:
 
 `https://interclip.app/api/set?url=https://flutter.dev/`
 
-### Example responce
+### Example response
 
 ```json
 {
@@ -53,7 +53,7 @@ body:
 **GET**
 `https://interclip.app/api/get?code=tasks`
 
-### Example responce
+### Example response
 
 ```json
 {
@@ -69,7 +69,7 @@ body:
 **GET**
 `https://interclip.app/includes/size.json`
 
-### Example responce
+### Example response
 
 ```json
 {
