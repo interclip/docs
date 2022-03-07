@@ -10,8 +10,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'aperta-principium', // Usually your GitHub org/user name.
-  projectName: 'Interclip', // Usually your repo name.
+  organizationName: 'interclip', // Usually your GitHub org/user name.
+  projectName: 'interclip', // Usually your repo name.
   themeConfig: {
     colorMode: {
       respectPrefersColorScheme: true,
@@ -26,8 +26,8 @@ module.exports = {
     navbar: {
       title: 'Interclip docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.png',
+        alt: 'Interclip\'s logo',
+        src: 'img/logo.svg',
       },
       items: [
         {
@@ -67,7 +67,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/aperta-principium/Interclip',
+              href: 'https://github.com/interclip/interclip',
             },
           ],
         },
